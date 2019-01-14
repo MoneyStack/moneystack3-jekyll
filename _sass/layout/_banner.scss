@@ -85,8 +85,52 @@
 					margin-left: 0;
 				}
 
-				p {
-					max-width: 50%;
+				& .site-description-container {
+					margin: 0;
+					padding: 0;
+					p {
+						font-size: 130%;
+					}
+				}
+
+				// Mailchimp Embedded Form Styles
+				& .mc-container {
+					padding: 1em;
+					margin: 0  1.5em 0 0;
+					background-color: _palette(fg-light) !important;
+
+					h3, p {
+						margin: 0;
+					}
+
+					& form {
+						margin: 0;
+
+						#mc_embed_signup_scroll {
+							display: flex;
+							flex-wrap: wrap;
+							justify-content: flex-start;
+							align-items: baseline;
+
+							.mc-field-group,
+							.button-container {
+								flex: 0 1 auto;
+							}
+
+							.mc-field-group {
+								//min-width: 275px;
+								margin: 10px;
+
+								input[type="email"] {
+									background: _palette(bg);
+								}
+							}
+						}
+
+						& input[type="submit"] {
+							margin-top: 1em;
+						}
+					}
 				}
 			}
 		}
@@ -139,9 +183,6 @@
 			> .inner {
 				.content {
 					display: block;
-					p {
-						max-width: 100%;
-					}
 					> * {
 						margin-left: 0;
 						margin-bottom: _size(element-margin);

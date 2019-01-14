@@ -18,11 +18,17 @@
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
-            <div class="content">
-                <p>{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>
+            <div class="content row">
+                <div class="7u$ 12u$(small)">
+                    <div class="site-description-container">
+                        <p>{{ site.description }}</p>
+                    </div>
+                </div>
+                <div class="5u$ 12u$(xsmall)">
+                    <div class="mc-container">
+                        {% include mailchimp_embed.html %}
+                    </div>
+                </div>
             </div>
         </div>
     </section>
