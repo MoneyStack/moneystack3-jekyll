@@ -73,11 +73,10 @@
 
 			.content {
 				@include vendor('display', 'flex');
-				@include vendor('align-items', 'center');
+				@include vendor('align-items', 'flex-start');
 				margin: 0 0 _size(element-margin) 0;
 
 				> * {
-					margin-left: 1.5em;
 					margin-bottom: 0;
 				}
 
@@ -86,8 +85,7 @@
 				}
 
 				& .site-description-container {
-					margin: 0;
-					padding: 0;
+					padding: 1em;
 					p {
 						font-size: 130%;
 					}
@@ -96,8 +94,7 @@
 				// Mailchimp Embedded Form Styles
 				& .mc-container {
 					padding: 1em;
-					margin: 0  1.5em 0 0;
-					background-color: _palette(fg-light) !important;
+					background-color: _palette(accent6) !important;
 
 					h3, p {
 						margin: 0;
