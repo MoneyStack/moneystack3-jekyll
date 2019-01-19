@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Our Mission, Vision, and Values
+title: Our Vision
 description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+image: assets/images/ai-artificial-intelligence-automation-1329068-800x781.jpg
 nav-menu: true
 show_tile: true
 ---

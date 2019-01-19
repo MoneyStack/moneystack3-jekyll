@@ -19,11 +19,16 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content row">
-                <div class="7u$ 12u$(small) site-description-container">
+                <div class="6u$ 12u$(small) site-description-container">
                     <p>{{ site.description }}</p>
                 </div>
-                <div class="5u$ 12u$(small) mc-container">
-                    {% include mailchimp_embed.html %}
+                <div class="6u$ 12u$(small) waitlist-container">
+                    <header class="major">
+                        <h3>Join the Waitlist</h3>
+                        <p>Hold your place in line</p>
+                    </header>
+                    <p>We’ll send you an exclusive invite once we open up our private beta.</p>
+                    {% include mailchimp.html %}
                 </div>
             </div>
         </div>
@@ -36,19 +41,11 @@
         {% include tiles.html %}
 
         <!-- Two -->
-        <!--
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
-        -->
+        <!--<section id="two">-->
+            <!--<div class="inner">-->
+                <!--<p>{{ content }}</p>-->
+            <!--</div>-->
+        <!--</section>-->
 
     </div>
 
