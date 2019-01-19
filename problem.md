@@ -2,7 +2,7 @@
 layout: page
 title: The Problem We Solve
 description: Talking about money is hard
-image: assets/images/ask-blackboard-356079-800x484.jpg 
+image: assets/images/addition-black-and-white-black-and-white-374918-800x533.jpg
 nav-menu: true
 show_tile: true
 ---
