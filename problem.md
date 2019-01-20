@@ -12,3 +12,12 @@ Talking about money is hard. As soon as we start thinking about numbers and doin
 Most Americans won't talk to a professional financial advisor because they believe they don't have enough wealth, and they wouldn't qualify for a professional's help. Bad press in recent years has led to some trust issues for the financial industry. For the "little" financial decisions in life, many of us believe we don't need a professional's advice even though the little things we buy on a credit card or finance with "no money down" can add up to become big problems down the road. Compound interest is a powerful force!
 
 The truth is there are a lot of misconceptions about how money works and how we should handle our finances to achieve our goals. Unless we talk things through and learn from each other, our money troubles won't go away and will continue to put our most valued personal relationships at risk.
+
+### About MoneyStack
+
+{{ site.description }} [Read more](vision.html)
+
+### References
+
+1. ["Understanding Literacy & Numeracy", Centers for Disease Control and Prevention, 2016](https://www.cdc.gov/healthliteracy/learn/UnderstandingLiteracy.html)
+1. ["Most Americans Don't Have a Financial Plan, and Many Think Their Wealth Doesn't Deserve One", Charles Schwab Corporation, 2018](https://pressroom.aboutschwab.com/press-release/schwab-investor-services-news/most-americans-dont-have-financial-plan-and-many-think-t)  
