@@ -9,6 +9,12 @@
 {% include head.html %}
 
 <body>
+    <script type="text/javascript">
+        var landingTitles = [];
+        {% for title in page.landing-titles %}
+        landingTitles.push({{"'"}}{{title}}{{"'"}});
+        {% endfor %}
+    </script>
 
     {% include header.html %}
 
@@ -16,7 +22,7 @@
     <section id="banner" class="major">
         <div class="inner">
             <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+                <h1 id="landing-title">{{ page.landing-titles[0] }}</h1>
             </header>
             <div class="content row">
                 <div class="6u$ 12u$(small) site-description-container">
