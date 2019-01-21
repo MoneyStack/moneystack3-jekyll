@@ -4,7 +4,6 @@ title: Home
 landing-titles: 
     - 'You say: "Alexa, ask MoneyStack if we can afford a new Tesla Model 3?"'
     - 'You send a text to MoneyStack: "$220K 4.25% 30 years"'
-    - 'You say: "Hey Google, open MoneyStack and ask if I'll save money with a balance transfer?"'
     - 'You chat with MoneyStack: "Can we afford a vacation in Belize?"'
     - 'You say: "OK Google, open MoneyStack"'
 description: null
