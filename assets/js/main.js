@@ -347,21 +347,21 @@
 
 				});
 
-			// var $landingTitleCarousel = $('#landing-title');
-			// if ($landingTitleCarousel) {
-			// 	$landingTitleCarousel.html('');
-			// 	$landingTitleCarousel.slick({
-			// 		autoplay: true,
-			// 		infinite: true,
-			// 		adaptiveHeight: true,
-			// 		fade: true,
-			// 		arrows: false,
-			// 		cssEase: 'linear'
-			// 	});
-			// 	for(title of landingTitles) {
-			// 		$landingTitleCarousel.slick('slickAdd','<span>' + title + '</span>');
-			// 	}
-			// }
+			var $landingTitleCarousel = $('#landing-title');
+			if ($landingTitleCarousel) {
+				$landingTitleCarousel.html('');
+				$landingTitleCarousel.slick({
+					autoplay: true,
+					infinite: true,
+					adaptiveHeight: true,
+					fade: true,
+					arrows: false,
+					cssEase: 'linear'
+				});
+				for(title of landingTitles) {
+					$landingTitleCarousel.slick('slickAdd','<span>' + title + '</span>');
+				}
+			}
 	});
 
 })(jQuery);

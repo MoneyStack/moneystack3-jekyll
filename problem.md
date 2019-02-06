@@ -7,9 +7,11 @@ nav-menu: true
 show_tile: true
 ---
 
-Unexpected vet bills for Coco, your car breaks down, timing of credits and debits in your checking account, and figuring how much money to save for your emergency fund or a trip to Belize, … well, there are great budgeting and saving apps out there to help you handle those money issues. Some of you may have tried one already and maybe you still use it today, or maybe you gave up on it because your own spreadsheet is really what you want and use. That’s totally cool either way. This is a judgement-free zone and we get it.
+Unexpected vet bills for Coco, a broken-down car, managing the timing of checking account credits vs. debits, how much money to save for your emergency fund or trip to Belize - MoneyStack can help you with all that, and so much more. 
 
-On the other hand, when you want to start planning for bigger things (e.g. a car, a house, a new job) and future life-events many months and sometimes years ahead of you (marriage, a baby or adoption, college tuition, retirement), things get way more complicated and there isn’t much help out there for you. You’re back to your spreadsheet or pen and paper and you wonder... 
+When you want to start planning for bigger things (a car, a house) and for future life-events (marriage, a baby or adoption, college tuition, retirement), things get way more complicated and there aren't that many tools out there to help you. You may have found that your own custom spreadsheet or a pen and paper are the only things that kind of work. 
+
+You wonder... 
 
 > "What if I put money into an ETF instead of my savings account to save for a down payment on my house?"
 
@@ -19,9 +21,9 @@ On the other hand, when you want to start planning for bigger things (e.g. a car
 
 > "What if I borrow money from my 401K to pay off all my credit card debts?"
 
-Maybe you thought of asking your parents or family for advice. And then you check yourself because the last thing you need is judgement, strings attached, and Mrs. Jones across the street from your Mom knowing your business.
+Maybe you thought of asking your parents or friends for advice.  Then you stop yourself because the last thing you need is judgement, strings attached, and your mom's friend Mrs. Jones knowing your business.
 
-So you consider talking to a real life expert, a professional financial advisor. And then you check yourself again because you don’t have time to call their office to make an appointment for a consultation two weeks out, you don’t have time to enter a ton of personal information in their gnarly old computer system, and you don’t know what all this will cost but you do kind of get a feeling it might get expensive. All you really want is a simple answer to your question.
+So you consider talking to a real life expert, a professional financial advisor. Then you stop yourself again because you don’t have the time to call the office to make an appointment for a consultation, enter a ton of personal financial information into their gnarly old computer system, and spend precious hours of your life meeting in an office. You don't even know what all that would cost, but you have a feeling it might get expensive.  All you really want is a simple answer to your question.
 
 Enter MoneyStack.
 

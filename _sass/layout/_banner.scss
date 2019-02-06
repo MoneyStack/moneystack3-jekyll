@@ -44,6 +44,13 @@
 			font-size: 3.25em;
 		}
 
+        & .landing-title-container {
+			margin-top: 9em;
+			h1 {
+				min-height: 4em;
+			}
+		}
+
 		> .inner {
 			@include vendor('transition', (
 				'opacity 1.5s ease',
@@ -86,6 +93,7 @@
 
 				& .site-description-container {
 					padding: 1em;
+					min-height: 20em;
 					p {
 						font-size: 130%;
 					}
@@ -107,7 +115,7 @@
 		}
 
 		&.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 
