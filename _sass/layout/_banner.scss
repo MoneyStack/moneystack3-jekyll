@@ -44,13 +44,6 @@
 			font-size: 3.25em;
 		}
 
-        & .landing-title-container {
-			margin-top: 9em;
-			h1 {
-				min-height: 4em;
-			}
-		}
-
 		> .inner {
 			@include vendor('transition', (
 				'opacity 1.5s ease',
