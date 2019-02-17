@@ -348,7 +348,7 @@
 				});
 
 			var $landingTitleCarousel = $('#landing-title');
-			if ($landingTitleCarousel) {
+			if ($landingTitleCarousel.length) {
 				$landingTitleCarousel.html('');
 				$landingTitleCarousel.slick({
 					autoplay: true,

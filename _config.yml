@@ -5,8 +5,8 @@ copyright_year: 2019
 copyright_statement: All rights reserved.
 slogan: Let's talk about money
 email: hello@moneystack.com
-description: MoneyStack is a financial planning app that helps you build your own "what-if" scenarios for your money.
-description2: You can collaborate with your significant other in your private online workspace, and if you get stuck you can invite a professional financial advisor in to help you. With straightforward, upfront pricing (like Uber) for a live online session, it's a safe space to discuss your scenarios and get answers to your questions in real-time.
+description: 'MoneyStack is a financial planning app that helps you build your own "what-if" scenarios for your money.'
+description2: 'You can collaborate with your significant other in your private online workspace, and if you get stuck you can invite a professional financial advisor in to help you. With straightforward, upfront pricing (like Uber) for a live online session, it''s a safe space to discuss your scenarios and get answers to your questions in real-time.'
 baseurl: # the subpath of your site, e.g. /blog
 url:
 author:
@@ -38,3 +38,6 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+
+ga_trackingId: 'UA-134660224-1'
