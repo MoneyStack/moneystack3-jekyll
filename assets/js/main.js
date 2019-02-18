@@ -353,9 +353,10 @@
 				$landingTitleCarousel.slick({
 					autoplay: true,
 					infinite: true,
-					adaptiveHeight: true,
+					adaptiveHeight: false,
 					fade: true,
 					arrows: false,
+					dots: false,
 					cssEase: 'linear'
 				});
 				for(title of landingTitles) {
