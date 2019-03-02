@@ -10,11 +10,11 @@ description2: 'You can collaborate with your significant other in your private o
 baseurl: # the subpath of your site, e.g. /blog
 url:
 author:
-street_address: '725 River Road, #32106'
+street_address: '725 River Road #32106'
 city: Edgewater
 state: NJ
 zip_code: '07020-1171'
-country: United States of America
+country: USA
 phone: +1 (724) 281-3487
 
 # homepage tiles

@@ -1,54 +1,4 @@
 
-<!-- Contact -->
-<section id="contact">
-	<div class="inner">
-		<section>
-			<header class="major">
-				<h2>Pre-Launch Subscription Packages</h2>
-				<p>Support us and save $$$ -- starting at 50% OFF</p>
-			</header>
-
-			{% include gumroad.html %}
-
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.company %}
-					    {{ site.company }}<br />
-					{% endif %}
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }}
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
-			</section>
-		</section>
-	</div>
-</section>
-
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
@@ -85,7 +35,36 @@
 				{% endif %}
 			</ul>
 			<ul class="copyright">
-				<li>&copy; {{ site.copyright_year }} {{ site.company }} {{ site.copyright_statement }}</li>
+				<li>
+					&copy; {{ site.copyright_year }} {{ site.company }} {{ site.copyright_statement }}
+
+				</li>
+				<li>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+				</li>
+				<li>
+					<!--
+					{% if site.company %}
+					    {{ site.company }}
+					{% endif %},
+					-->
+					{% if site.street_address %}
+					    {{ site.street_address }},
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }},
+					{% endif %}
+					{% if site.state %}
+					    {{ site.state }},
+					{% endif %}
+					{% if site.zip_code %}
+					    {{ site.zip_code }}
+					{% endif %}
+					{% if site.country %}
+					    {{ site.country }}
+					{% endif %}
+
+				</li>
 			</ul>
 		</div>
 	</footer>
