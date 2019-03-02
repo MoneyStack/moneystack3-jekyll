@@ -3,7 +3,7 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong></a>
+	<a href="/" class="logo"><strong>{{ site.title }}</strong></a>
 	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
@@ -12,18 +12,16 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
+		{% assign sorted_pages = site.pages | sort:"tile_order" %}
+        {% for page in sorted_pages %}
 		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+		        <li><a href="/">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
-		{% for page in site.pages %}
+		{% for page in sorted_pages %}
 		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		        <li><a href="{{ page.url }}">{{ page.title-nav-menu | default: page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Join the waitlist</a></li>
 	</ul>
 </nav>

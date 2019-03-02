@@ -5,6 +5,7 @@ description: Money for the bigger things in life
 image: assets/images/addition-black-and-white-black-and-white-374918-800x533.jpg
 nav-menu: true
 show_tile: true
+tile_order: 1
 ---
 
 Unexpected vet bills for Coco, a broken-down car, managing the timing of checking account credits vs. debits, how much money to save for your emergency fund or trip to Belize - MoneyStack can help you with all that, and so much more. 
@@ -27,5 +28,5 @@ So you consider talking to a real life expert, a professional financial advisor.
 
 Enter MoneyStack.
 
-{{ site.description }} {{ site.description2 }} [Read more](vision.html)
+{{ site.description }} {{ site.description2 }} [Read more](product.html)
 
